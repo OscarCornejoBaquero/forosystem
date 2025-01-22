@@ -1,1 +1,9 @@
 com/ecommerce/EcommerceApplication.class
+com/ecommerce/config/SecurityConfig.class
+com/ecommerce/controller/CartController.class
+com/ecommerce/model/Product.class
+com/ecommerce/model/CartItem.class
+com/ecommerce/repository/ProductRepository.class
+com/ecommerce/config/DataLoader.class
+com/ecommerce/controller/ProductController.class
+com/ecommerce/model/Cart.class
