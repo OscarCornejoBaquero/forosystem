@@ -42,7 +42,6 @@ public class CheckoutController {
                 shippingAddress
             );
             
-            // Limpiar el carrito después de crear la orden
             cart.getItems().clear();
             
             return "redirect:/checkout/confirmation?orderId=" + order.getId();

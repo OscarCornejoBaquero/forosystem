@@ -10,10 +10,10 @@ import org.springframework.web.context.annotation.SessionScope;
 public class Cart {
     private List<CartItem> items = new ArrayList<>();
 
-    // Constructor
+ 
     public Cart() {}
 
-    // Getter y Setter para items
+ 
     public List<CartItem> getItems() {
         return items;
     }
@@ -22,7 +22,7 @@ public class Cart {
         this.items = items;
     }
 
-    // Métodos de negocio
+  
     public void addProduct(Product product) {
         for (CartItem item : items) {
             if (item.getProduct().getId().equals(product.getId())) {

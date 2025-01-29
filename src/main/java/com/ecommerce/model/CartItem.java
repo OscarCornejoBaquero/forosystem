@@ -4,10 +4,10 @@ public class CartItem {
     private Product product;
     private int quantity;
 
-    // Constructor vacío
+  
     public CartItem() {}
 
-    // Getters y Setters
+ 
     public Product getProduct() {
         return product;
     }

@@ -18,10 +18,10 @@ public class Product {
     private String imageUrl;
     private Integer stock;
 
-    // Constructor vacío
+   
     public Product() {}
 
-    // Getters y Setters
+    
     public Long getId() {
         return id;
     }

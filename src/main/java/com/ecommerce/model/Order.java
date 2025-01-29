@@ -29,13 +29,13 @@ public class Order {
     @OneToMany(mappedBy = "order", cascade = CascadeType.ALL)
     private List<OrderItem> items = new ArrayList<>();
 
-    // Constructor
+   
     public Order() {
         this.createdAt = LocalDateTime.now();
         this.status = OrderStatus.PENDING;
     }
 
-    // Getters y Setters
+   
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
 

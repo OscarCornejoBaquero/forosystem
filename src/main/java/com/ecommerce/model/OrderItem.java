@@ -21,10 +21,10 @@ public class OrderItem {
 
     private Double price;
 
-    // Constructor
+   
     public OrderItem() {}
 
-    // Getters y Setters
+   
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
 
